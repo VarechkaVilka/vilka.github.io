@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="icon/favicon.ico">
+
+    <title>Варькин сайт</title>
+</head>
+<body>  
+    <header>
+       <h1>Сейлор-мун</h1> 
+       <img src="img/pngwing.com.png" alt="логотип" width="50px">
+       <nav>
+        <ul>
+            <li> <a href="#about">Обо мне</a> </li>
+            <li><a href="#articles">Мои статьи</a> </li>
+            <li><a href="#feedback">Обратная связь</a> </li>
+        </ul>
+       </nav>
+    </header>
+    <main>
+        <section id = "about">
+            <h2 id = "ArticleTitle">Обо мне</h2>
+            <a href="img/sm.jpg" download=""><img src="img/sm.jpg" alt="микро-чел" width="700px"></a>
+            <p>Здравствуйте читали моего интернет-канала! Этот <em>"сайт"</em>  был создан для выполнения домашней работе по веб-верстке, которая мне очень нравится.</p>
+            <p>Расскажу немного моих страницах. Тематика данного сайта состоит на основе аниме-сериала <strong>«Прекрасная воительница Сейлор Мун»</strong>. Я ни разу не смотрела этот сериал. Но он меня очень сильно привлекает своей рисовкой, стилем и конечно же вайбом. Я выделила несколько тематик статей. На самом деле почти все я скопировала на Википедии. Очень удобно. Рассказала о том, что вообще такое Селор Мун, о чем сюжет, рассказала так же о персонажах и конечно же оставила чужую рецензию с какого-то сайта. <strong>Дальше я вставлю неотформатированную песенку из этого аниме с помощью тега <em>pre</em>  </strong></p>
+            <p>
+                <pre>
+                    
+
+Лунная легенда
+
+Мне очень жаль, что была груба с тобою…
+Готова поделиться с тобой своей мечтою…
+Зациклены мысли на одном и никак не забыть…
+Хочу прямо сейчас лишь с тобой быть…
+
+Как же хочется плакать мне в лунном свете…
+В полночь не позвонить, мой друг лишь ветер…
+Что делать мне, коли, душа полна тоской,
+И моё сердце как калейдоскоп…
+
+Нам путь укажет этот волшебный лунный свет.
+Я столько раз видела его яркий след…
+Бесчисленные звёзды, что над нами, скажут, и всю правду нам они расскажут,
+Где во вселенной этой, что ищем мы вновь,
+Рождённая на земле любовь…
+
+Хочу с тобой в выходные забыть ненастье…
+Пошли нам, Бог, настоящее счастье…
+Неважно вчера, сегодня или завтра…
+Люблю тебя и это правда…
+
+Когда впервые увидела я тебя тогда,
+Твой нежный взгляд забыть не смогла…
+Средь бесчисленных звёзд, что надо мною,
+Найду тебя, став сама звездою…
+Меняя совпадения на шансы –
+Люблю жизнь нашу и наши романсы…
+
+Волшебная случайность бывало столько раз
+Сталкивала для встреч друг с другом нас…
+Бесчисленные звёзды, что над нами, скажут, и всю правду нам они расскажут.
+Где во вселенной этой, что ищем мы вновь,
+Рождённая на земле любовь…
+Верю всем сердцем в неё –
+В эту чудесную любовь…
+                </pre>
+        </p>
+        </section>
+        <section id="articles">
+            <h2>Мои статьи</h2>
+            <ol>
+                <li class="item"><a class="link_item" href="article1.html">Что такое Селор-мун?</a> </li>
+                <li class="item"><a class="link_item" href="article2.html">Сюжет</a></li>
+                <li class="item"><a class="link_item" href="article3.html">Персонажи</a></li>
+                <li class="item"><a class="link_item" href="article4.html">Рецензия</a></li>
+                <li class="item"><a class="link_item_opa" href="article5.html">Список терминов</a></li>
+
+            </ol>
+        </section>
+        <section id = "feedback">
+            <h2>Обратная связь</h2>
+            <form action="" id="contact-form">
+                <div class="form_item">
+                    <label for="topic">Тема</label><br>
+                    <select name="topic" id="topic" required>
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Оставить отзыв</option>
+                        <option value="3">Предложить сотрудничество</option>
+                        <option value="4">Другое</option>
+                    </select>
+                </div>
+                <div class="form_item">
+                    <label for="name">Имя</label><br>
+                    <input name="name" id="name" type="text" placeholder="Введите имя" required><br>
+                </div>
+
+                <div class="form_item">
+                    <label for="mail">E-mail</label><br>
+                    <input id="mail" type="email" placeholder = "Введите ваш E-mail" required><br>
+                </div>
+
+                <div class="form__item">
+                    <label for="phone">Телефон</label><br>
+                    <input type="tel" id="name" name="phone" placeholder="Ваш телефон" required>
+                  </div>
+
+                <div class="form__item">
+                    <label for="date">Дата</label><br>
+                    <input type="date" name="date" id="name" required>
+                </div>
+
+                <div class="form_item">
+                    <label for="message">Текст сообщения</label><br>
+                   <textarea name="message" id="message" cols="30" rows="10" placeholder = "Ваше сообщение" required></textarea><br>
+                </div>
+
+                <div class="form__item">
+                    <label for=""><input type="checkbox" required>Согласие на обработку данных</label><br>
+                    <label for=""><input type="checkbox">Согласие на получение рассылок</label>
+      
+                </div>
+
+                <div class="form_item_submit">
+                    <input type="submit">
+                </div>
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Варя Вилочка</p>
+        <p> Вы можете найти меня  <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B9%D0%BB%D0%BE%D1%80_%D0%9C%D1%83%D0%BD">здесь</a></p>
+        <p>
+            <a href="https://vk.com/pretty_soldier_sailor_moon" target="_blank"><img src="img/free-icon-vk-2111828.png" width="3%" alt="логотип вк"></a>
+            <a href="https://t.me/sailormoon_vk" target="_blank"><img src="img/free-icon-telegram-739260.png" width="3%" alt="логтип тг"></a>
+            <a href="https://www.youtube.com/hashtag/%D1%81%D0%B5%D0%B9%D0%BB%D0%BE%D1%80%D0%BC%D1%83%D0%BD" target="_blank"><img src="img/free-icon-youtube-2111795.png" width="3%" alt="логотип ютуба"></a>
+        </p>
+    </footer>
+</body>
+</html>

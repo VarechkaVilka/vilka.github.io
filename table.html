@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="table1">
+        <caption><b>Экспресс-мун</b></caption>
+        <thead>
+            <tr>
+                <td>наименование</td>
+                <td >цена</td>
+                <td>количество</td>
+                <td>цвет</td> 
+                <td>стоимость</td> 
+                        
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Парик</td>
+                <td rowspan="2">20</td>
+                <td>100</td>
+                <td>розовый</td>
+                <td>2000</td>
+                
+            </tr>
+
+            <tr>
+                <td>Платье</td>
+                <td>20</td>
+                <td>голубой</td>
+                <td>100</td>
+                
+            </tr>
+
+            <tr>
+                <td>Скипитер</td>
+                <td>20</td>
+                <td>100</td>
+                <td>розовый</td>
+                <td>2000</td>
+                
+            </tr>
+
+            <tr>
+                <td>Обувь</td>
+                <td>20</td>
+                <td>100</td>
+                <td>голубой</td>
+                <td>2000</td>
+               
+            </tr>
+
+            <tr>
+                <td>Зажимы</td>
+                <td>4</td>
+                <td>4000</td>
+                <td>розовый</td>
+                <td>16000</td>
+                
+            </tr>
+
+            <tr>
+                <td>Портупея</td>
+                <td>1500</td>
+                <td>2</td>
+                <td>голубой</td>
+                <td>3000</td>
+                
+            </tr>
+
+            <tr>
+                <td colspan="4">Итог</td>
+                <td>6758585</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <form id="form-reg">
+        <label for="mail">Введите e-mail</label><br>
+        <input id="mail" type="email" placeholder="Email" required><br>
+
+        <label for="pass">Введите пароль</label><br>
+        <input id="pass" type="passworld" placeholder="Пароль"><br>
+
+        <input type="radio" id="grnder-male" name="gender" value="male">
+        <label for="gender-male">муж</label><br>
+
+        <input type="radio" id="gender-female" name="gender" value="female" checked>
+        <label for="gender-female">жен</label><br>
+        
+
+        <input type="submit" value="Зарегестрироваться" disabled>
+        <input type="reset">
+
+    </form>
+</body>
+</html>
